@@ -1,7 +1,7 @@
 # Build a CLI using Typescript
 
 ## Description
-You can create your own cli using this exmaple repo.
+You can create your own cli using this example repo.
 
 ## Installation
 ```ts
