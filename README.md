@@ -4,6 +4,8 @@
 You can create your own cli using this example repo.
 
 ## Installation
+Create a folder and open with vscode
+
 ```ts
 npm init -y //create a package.json file
 tsc --init ///create a tsconfig.json file
