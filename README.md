@@ -11,7 +11,7 @@ npm init -y //create a package.json file
 tsc --init ///create a tsconfig.json file
 npm install yargs //cath and use command line command
 npm install @types/yargs //typescript version of yargs
-npm install @types/nopde //if we want to use fs module this package we need to install
+npm install @types/node //if we want to use fs module this package we need to install
 ```
 
 ## Usage
