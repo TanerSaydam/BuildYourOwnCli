@@ -15,7 +15,7 @@ const argv = yargs
         describe: "Create a style.css file",
         aliases: ["c"],
         builder: {},
-        handler: function (argv){
+        handler: function (argv:any){
             createStyleCss();
         }
     })
