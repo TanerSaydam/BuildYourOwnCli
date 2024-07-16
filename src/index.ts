@@ -45,6 +45,7 @@ if(argv._.includes("build")){
 
         console.log(`stdout: ${stdout}`);
         console.error(`stderr: ${stderr}`);
+        process.exit(0);
     })
 }
 
@@ -82,6 +83,7 @@ function createNewProject(projectName: string){
     
             console.log(`stdout: ${stdout}`);
             console.error(`stderr: ${stderr}`);
+            process.exit(0);
         })
     })
 }
@@ -95,4 +97,5 @@ function createStyleCss(){
 
     fs.writeFileSync("style.css",defaultCss);
     console.log("Style.css has ben created.");
+    process.exit(0);
 }
