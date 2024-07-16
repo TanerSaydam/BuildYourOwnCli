@@ -158,6 +158,7 @@ function createNewProject(projectName: string){
     
             console.log(`stdout: ${stdout}`);
             console.error(`stderr: ${stderr}`);
+            process.exit(0);
         })
     })
 }
